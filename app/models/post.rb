@@ -5,6 +5,8 @@ class Post < ActiveRecord::Base
   belongs_to :author
 
   #put new code here
+  
+  
 
   private
 
