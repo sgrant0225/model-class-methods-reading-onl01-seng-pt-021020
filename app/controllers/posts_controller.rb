@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
-
+#helper_method :params #to ensure that our view has access to the controllers params hash #do not place here. Reading params is a controller concern, so we don't need to expose it to the views. 
+  
+  
   def index
     @posts = Post.all
   end
