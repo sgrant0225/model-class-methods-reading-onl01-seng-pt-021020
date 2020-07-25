@@ -10,6 +10,8 @@ class Post < ActiveRecord::Base
   where(author: author_id)
 end
 
+
+
   private
 
   def is_title_case
