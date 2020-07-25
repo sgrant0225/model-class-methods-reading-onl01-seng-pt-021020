@@ -6,7 +6,9 @@ class Post < ActiveRecord::Base
 
   #put new code here
   
-  
+  def self.by_author(author_id)
+  where(author: author_id)
+end
 
   private
 
